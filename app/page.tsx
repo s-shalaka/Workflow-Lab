@@ -127,7 +127,7 @@ export default function Home() {
           </p>
 
           <a
-            href="mailto:your-email@example.com"
+            href="mailto:shalaka.sashittal@gmail.com"
             className="text-sm font-medium text-[#28594d] hover:text-teal-800"
           >
             Contact ↗

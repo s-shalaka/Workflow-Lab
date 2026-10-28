@@ -726,7 +726,7 @@ function RuleLibrary({ onBack }: { onBack: () => void }) {
         <div>
           <h2 className="text-base font-semibold text-[#163d37]">Rule library ({rules.length})</h2>
           <p className="mt-1 text-xs text-[#64746b]">
-            Written from the manufacturer's point of view. A flag prompts review; it does not establish non-compliance.
+            Written from the manufacturer&apos;s point of view. A flag prompts review; it does not establish non-compliance.
           </p>
         </div>
         <button
@@ -1005,7 +1005,7 @@ export default function OTAPrivacyTrackerPage() {
         <div className="mb-3 flex flex-wrap gap-4 rounded-xl border border-[#e0e4db] bg-[#fffefa] px-4 py-2 text-xs text-[#65746c] lg:shrink-0">
           <span>Changed fields are highlighted</span>
           <span>GDPR / ePrivacy checks</span>
-          <span>Written from the manufacturer's point of view</span>
+          <span>Written from the manufacturer&apos;s point of view</span>
           <span>Screening tool—not legal advice</span>
         </div>
         {showRuleLibrary ? (
@@ -1066,7 +1066,7 @@ export default function OTAPrivacyTrackerPage() {
               <Field id="location" label="Data location" isChanged={changed("location", proposed)}>
                 <SelectField id="location" value={proposed.location} options={LOCATIONS} onChange={(v) => update("location", v)} />
                 <Hint>
-                  Where data is stored or accessed. EEA = EU plus Iceland, Liechtenstein and Norway. EU-approved = the EU has found the country's data protection adequate (Art. 45); check what the approval covers.
+                  Where data is stored or accessed. EEA = EU plus Iceland, Liechtenstein and Norway. EU-approved = the EU has found the country&apos;s data protection adequate (Art. 45); check what the approval covers.
                 </Hint>
               </Field>
               <Field id="retention" label="Storage period" isChanged={changed("retention", proposed)}>

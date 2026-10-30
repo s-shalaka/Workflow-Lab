@@ -983,12 +983,12 @@ export default function OTAPrivacyTrackerPage() {
               {showHowItWorks ? "Back to tracker" : "How it works"}
             </button>
             <select
-              aria-label="Load the example to see how the it works."
+              aria-label="Load the example to see how it works."
               value=""
               onChange={(e) => loadScenario(e.target.value)}
               className="rounded-xl bg-[#1c5147] px-4 py-2.5 text-sm font-semibold text-white hover:bg-[#153f37]"
             >
-              <option value="" disabled>Load the example to see how the it works.</option>
+              <option value="" disabled>Load the example to see how it works.</option>
               {SCENARIOS.map((s) => (
                 <option key={s.name} value={s.name} className="text-[#203d36]">{s.name}</option>
               ))}
